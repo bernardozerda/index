@@ -9,26 +9,27 @@
     <title>SiPIVE en Mantenimiento</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/203f058718.css">
-	
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
+<!--    <link rel="stylesheet" href="https://use.fontawesome.com/203f058718.css">-->
+
+    <link rel="stylesheet" href="../prueba/public/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../prueba/public/vendor/font-awesome/css/font-awesome.css">
+
 </head>
-<body style="margin-top:100px;">
+<body style="margin-top:120px;">
 
 <div class="container">
-
+    <div class="jumbotron mt-3">
         <div class="row justify-content-center">
-            <div class="jumbotron mt-3">
-
-                    <h1 class="display-2">
-                        <i class="fa fa-power-off text-danger" aria-hidden="true"></i>
-                        SiPIVE fuera de linea
-                    </h1>
-                    <p class="lead" align="center">Disculpenos, estamos en labores de mantenimiento, pronto pondremos la aplicación en linea</p>
-
+            <div class="col col-sm-1">
+                <i class="fa fa-power-off fa-5x text-danger" aria-hidden="true"></i>
+            </div>
+            <div class="col col-sm-12" style="text-align: center">
+                <h1 class="display-3">SiPIVE fuera de linea</h1>
+                <p class="lead">Disculpenos, estamos en labores de mantenimiento, pronto pondremos la aplicación en linea</p>
             </div>
         </div>
-
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
